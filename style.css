@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: rgb(230, 224, 224);
+}
+#calculator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 20px;
+}
+#calculator h1 {
+  color: rgb(122, 2, 122);
+  font-size: 50px;
+  font-weight: 800;
+}
+.calculator {
+  background-color: #5b899e;
+  padding: 20px;
+  border-radius: 20px;
+}
+.calculator form input {
+  background-color: #222;
+  color: rgb(48, 224, 48);
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
+.calculator form input:hover {
+  transform: translateY(-0.8px);
+}
+form .display {
+  display: flex;
+  margin: 20px 0;
+}
+form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: #2a2a2a;
+}
+.last-row .equal {
+  width: 145px;
+  background-color: #2d2d2d;
+  color: #ff9500;
+}
+form .operator input {
+  background-color: #2d2d2d;
+  color: #ff9500;
+}
+form .row .operator {
+  background-color: #2d2d2d;
+  color: #ff9500;
+}
